@@ -158,7 +158,7 @@ class CountryDropdownField extends DropdownField
      */
     public function isValidValue($value)
     {
-        return array_key_exists($value, $this->getValidValues());
+        return in_array($value, $this->getValidValues());
     }
     
     /**
