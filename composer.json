@@ -1,0 +1,40 @@
+{
+  "name": "silverware/countries",
+  "type": "silverstripe-module",
+  "description": "SilverWare Countries Module.",
+  "homepage": "https://github.com/praxisnetau/silverware-countries",
+  "keywords": [
+    "silverware",
+    "countries",
+    "country",
+    "dropdown",
+    "field",
+    "silverstripe"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Colin Tucker",
+      "role": "Developer",
+      "email": "colin@praxis.net.au",
+      "homepage": "http://www.praxis.net.au"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "silverstripe/framework": "^4.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "SilverWare\\Countries\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    },
+    "installer-name": "silverware-countries"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

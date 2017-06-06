@@ -1,0 +1,24 @@
+---
+Name: silverware-countries
+---
+
+# Configure Invalid Countries:
+
+SilverWare\Countries\Forms\CountryDropdownField:
+  invalid_countries:
+    - cs
+    - ct
+    - fq
+    - fx
+    - jt
+    - mi
+    - nq
+    - nt
+    - pc
+    - pu
+    - pz
+    - qu
+    - su
+    - vd
+    - wk
+    - yd
