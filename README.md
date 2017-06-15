@@ -1,5 +1,9 @@
 # SilverWare Countries Module
 
+[![Latest Stable Version](https://poser.pugx.org/silverware/countries/v/stable)](https://packagist.org/packages/silverware/countries)
+[![Latest Unstable Version](https://poser.pugx.org/silverware/countries/v/unstable)](https://packagist.org/packages/silverware/countries)
+[![License](https://poser.pugx.org/silverware/countries/license)](https://packagist.org/packages/silverware/countries)
+
 Provides a `CountryDropdownField` for use in [SilverStripe v4][silverstripe-framework] forms.
 
 ## Contents

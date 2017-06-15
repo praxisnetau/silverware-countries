@@ -2,7 +2,7 @@
 Name: silverware-countries
 ---
 
-# Configure Invalid Countries:
+# Configure Country Dropdown Field:
 
 SilverWare\Countries\Forms\CountryDropdownField:
   invalid_countries:

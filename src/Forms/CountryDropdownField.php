@@ -107,7 +107,7 @@ class CountryDropdownField extends DropdownField
         $source  = i18n::getData()->getCountries();
         $invalid = $this->config()->invalid_countries;
         
-        return array_filter($source, function($code) use ($invalid) {
+        return array_filter($source, function ($code) use ($invalid) {
             return !in_array($code, $invalid);
         }, ARRAY_FILTER_USE_KEY);
     }
