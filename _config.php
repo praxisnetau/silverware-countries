@@ -14,13 +14,3 @@
  * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  * @link https://github.com/praxisnetau/silverware-countries
  */
-
-// Define Module Constants:
-
-if (!defined('SILVERWARE_COUNTRIES_DIR')) {
-    define('SILVERWARE_COUNTRIES_DIR', basename(__DIR__));
-}
-
-if (!defined('SILVERWARE_COUNTRIES_PATH')) {
-    define('SILVERWARE_COUNTRIES_PATH', realpath(__DIR__));
-}
