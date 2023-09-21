@@ -139,8 +139,9 @@ class CountryDropdownField extends DropdownField
         }
         
         // Default to Country (if defined):
-        
-        if (($code = strtolower($this->config()->default_country)) && $this->isValidValue($code)) {
+        $default_country = $this->config()->default_country;
+        $code = $default_country ? strtolower($default_country) : null;
+        if ($code && $this->isValidValue($code)) {
             return parent::setValue($code, $data);
         }
         
